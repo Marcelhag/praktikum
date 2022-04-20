@@ -4,7 +4,7 @@ import random
 
 def main():
     p = PhyphoxBLE()
-    p.start()                                #Start the BLE server
+    p.start("My Device")                                #Start the BLE server
         
     while True:
         randomNumber = random.randint(0,100) #Generate random number in the range 0 to 100

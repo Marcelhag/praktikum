@@ -23,5 +23,6 @@ def main():
         # Hier können weiter Codezeilen eingefügt werden.
         #------------------------------------------------
         time.sleep_ms(50)
+        
 if __name__ == "__main__":
     main()
